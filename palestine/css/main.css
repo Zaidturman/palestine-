@@ -1,0 +1,257 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+
+.logo {
+    width: 100%  ;
+    height: 5% ;
+    background-color:rgb(231, 231, 231);
+    padding: 5px;
+        display: flex;
+   
+}
+.image{
+    width: 5% !important;
+    height: 10%;
+        /* Each column takes equal width */
+
+        align-items: center;
+
+}    
+
+
+
+
+.column1 {
+    flex: 1;
+    /* Each column takes equal width */
+    padding: 20px;
+    text-align: end;
+}
+
+.column2 {
+    flex: 1;
+    /* Each column takes equal width */
+    padding: 20px;
+        text-align: center;
+        justify-content: center;
+}
+a{
+        margin: 10px;
+      text-decoration: none;
+      color: black;
+
+        
+}
+a:hover{
+color: rgb(0, 78, 78);    
+}
+.main{
+        display: flex;
+        height: 100%;
+}
+
+.sidebar{
+        flex: 1;
+        background-color: rgb(231, 231, 231);
+        text-align: center;
+        height: 100%;
+        margin: 10px;
+
+}
+.mainpage{
+    flex: 4;
+}
+ul{
+    list-style-type: none;
+        /* إزالة نقاط القائمة الافتراضية */
+        padding: 10%;
+        height: 100%;
+}
+ul li{
+    padding: 10px;
+        border-bottom: 1px solid #555;
+
+}
+
+li:hover{
+        background-color: #555;
+            /* لون الخلفية عند تحويل المؤشر */
+}
+
+
+.section1 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.section1 .div-img {
+
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.section1 .div-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.section1 .div-test {
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.section2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.section2 .div-img {
+
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.section2 .div-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.section2 .div-test {
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.section3 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.section3 .div-img {
+
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.section3 .div-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.section3 .div-test {
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.section4 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.section4 .div-img {
+
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.section4 .div-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.section4 .div-test {
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.section5 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.section5 .div-img {
+
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.section5 .div-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.section5 .div-test {
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.nums {
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.num h1 {
+    font-size: 500%;
+    color: rgb(100, 93, 117);
+
+}
+
+.btn {
+    background-color: none;
+    padding: 5px;
+    border: black solid 1px;
+    margin-top: 20px;
+    width: 20%;
+    height: 10%;
+}
+
+.text-sec1 {
+    font-size: 400%;
+}
+
+.paragraph-sec1 {
+    font-size: 100%;
+    margin-top: 20px;
+    max-width: 80%;
+    text-align: end;
+}
+.dic-text{
+    max-width: 80%;
+    text-align: end !important;
+}
+.page2{
+   
+}
